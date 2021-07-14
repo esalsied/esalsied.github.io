@@ -619,7 +619,8 @@ input, select, textarea {
 			line-height: 1;
 			text-transform: none !important;
 			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
+			font-weight: 900;
+			content: "~";
 		}
 
 		.icon > .label {
@@ -704,7 +705,7 @@ input, select, textarea {
 		}
 
 			.image.main img {
-				width: 100%;
+				width: 25%;
 			}
 
 		@media screen and (max-width: 736px) {
