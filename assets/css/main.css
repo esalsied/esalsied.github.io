@@ -42,6 +42,7 @@ html {
 body {
 	display: table-cell;
 	vertical-align: middle;
+	margin: auto;
 }
 
 ol, ul {
@@ -683,12 +684,13 @@ input, select, textarea {
 		}
 
 		.image img {
-			border-radius: 4px;
+			
+			border-radius: 50%;
 			display: block;
 		}
 
 		.image.left, .image.right {
-			max-width: 40%;
+			max-width: 50%;
 		}
 
 			.image.left img, .image.right img {
@@ -724,7 +726,9 @@ input, select, textarea {
 		}
 
 			.image.main img {
-				width: 25%;
+				border-radius: 50%;
+				width: 250px;
+				height: 250px
 			}
 
 		@media screen and (max-width: 736px) {
