@@ -132,6 +132,10 @@ input, select, textarea {
 	text-align: left;
 	margin: 0 0 0 75px;
 	}
+	.pmargins
+	{
+	margin: 0 25px 0;
+	}
 
 
 /* Type */
