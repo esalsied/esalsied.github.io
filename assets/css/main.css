@@ -89,17 +89,15 @@ input, select, textarea {
 /* Basic */
 
 	@-ms-viewport {
-		width: device-width;
-	}
+		width: device width;
+}	
 
-	@media screen and (max-width: 480px) {
+	@media screen and (max-width: 1060px) {
 
-		html, body, header {
+		html, body {
 			min-width: 320px;
-			width: 100%
-		}
-
 	}
+}
 
 	html {
 		box-sizing: border-box;
@@ -137,7 +135,6 @@ input, select, textarea {
 	{
 	margin: 0 25px 0;
 	}
-
 
 /* Type */
 
