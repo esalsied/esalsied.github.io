@@ -1,0 +1,62 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Accessibility Report</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class ="project">
+		<div id="wrapper">
+			<nav>
+				<a href="index.html#">Home</a> |
+				<a href="index.html#poetry">Projects</a> |
+				<a href="index.html#poetry">Resume</a> |
+				<a href="index.html#about">About</a> |
+				<a href="index.html#contact">Contact</a>
+			</nav>
+		<header>
+			<h1>Accessibility Report for InsideNova</h1>
+		</header>
+			<center><span class="image main"><img src="images/IMG_0008.JPG"></span></center>
+			<div class="pmargins">
+		Accessibility Report for InsideNova.com
+URL:<a href= "https://www.insidenova.com/"> https://www.insidenova.com/</a>
+
+<p>To measure the accessibility of InsideNova’s website, I typed its URL into the WAVE accessibility evaluation tool. What follows are the summarized findings of the WAVE tool as well as my accessibility recommendations based on said findings.</p>
+
+<h2>Findings:</h2>
+
+<h3>1.) Missing Alternative Text</h3>
+
+<p>The WAVE tool found 6 instances where no alternative text was provided for an image in the event that a user is unable to view said image. Although less common, there were several instances where images linked to other sources did not contain alternative text, and form labels for screen reader users were absent as well.</p>
+
+<h3>2.) Contrast Errors</h3>
+
+<p>The WAVE tool found 28 instances where there was a low contrast between text and its background color, making it easier for any given text to blend into the background and more difficult for users to read said text. This issue is also likely more important to address than it would be for other websites since InsideNova is a news publication with the primary goal of informing its users by producing a large, consistent quantity of text-based content.</p>
+
+<h3>3.) Redundancy</h3>
+
+<p>The WAVE tool indicated that redundancy was a major recurring issue across the InsideNova website. Most notably, the tool detected 85 instances where the website used redundant links. And while there were also 4 instances where text title redundancy was detected, link redundancy appears to be a more widespread issue across the entire platform.</p>  
+
+<h2>Recommendations:</h2>
+
+<h4>1.)</h4> To address missing alternative text for images that cannot be displayed, I think it would be best for the web authors to write short but descriptive alternative text for each image. More specifically, the web authors should include a brief descriptive phrase ideally followed by an emotionally-charged adjective. For example, the alternative text for an image in a report about a school shooting could be something like “Blank_High_School_Outside[Somber].” This way the reader can understand what would have been shown in the image as well as the emotion(s) the web authors wanted it to convey even when a user cannot actually see it.
+
+<h4>2.)</h4> To address text and background color contrast errors, I think the web authors should implement a menu that allows users to choose from several preset text-background contrast patterns. Ideally, this will give users more freedom to make the website’s visual contrast visually appealing for their specific reading needs be it a darker background color, larger font, etc. However, I think it is important that this menu not give the user any more than 3-5 options to choose from for customization because anything greater would likely present an additional barrier to accessibility due to its unnecessary complexity.
+
+<h4>3.)</h4> To address redundancy, I think the web authors should make the breadcrumbing progression from page to page more visible to the user along with consolidating the links found on any given page down to only the links immediately relevant to the user based on the breadcrumb path they have taken through the website. Making the website’s breadcrumbing more visible gives the web authors more of an incentive to reduce the number of pages similar to each other, instead making each page more purposeful with the information it presents. By consolidating the links on any given page, the user is given fewer navigation tasks to focus on, making them less likely to be overwhelmed by the variety of links they can choose from all at once.
+
+				</div>
+		<footer id="footer">
+	<p class="copyright">&copy; Evan Salsieder 2023.</p>
+</footer>
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
